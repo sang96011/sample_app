@@ -31,3 +31,31 @@
 
 en:
   hello: "Hello world"
+  titles: "| Ruby on Rails Tutorial Sample App"
+  rails_url: "http://www.railstutorial.org/"
+  rails_name: "Ruby on Rails Tutorial"
+  home:
+    h1: "Sample App"
+    c1: "This is the home page for the "
+    c2: "sample application."
+  help:
+    h1: "Help"
+    c1: "Get help on the Ruby on Rails Tutorial at the"
+    c2: "To get help on this sample app, see the "
+    c3: "book"
+  contact:
+    h1: "Contact"
+    c1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    c2: "http://www.railstutorial.org/contact"
+    c3: "contact page"
+  about:
+    h1: "About"
+    c1: "The"
+    c2: "is a"
+    c3: "and"
+    c4: "http://screencasts.railstutorial.org/"
+    c5: "screencast series"
+    c6: "to teach web development with"
+    c7: "http://rubyonrails.org/"
+    c8: "Ruby on Rails"
+    c9: ".This is the sample application for the tutorial."

@@ -31,10 +31,11 @@
 
 en:
   hello: "Hello world"
-  titles: "| Ruby on Rails Tutorial Sample App"
+  titles: "Ruby on Rails Tutorial Sample App"
   rails_url: "http://www.railstutorial.org/"
   rails_name: "Ruby on Rails Tutorial"
   home:
+    content: "This is the home page for the #{} sample application."
     h1: "Sample App"
     c1: "This is the home page for the "
     c2: "sample application."

@@ -35,8 +35,9 @@ en:
   rails_url: "http://www.railstutorial.org/"
   rails_name: "Ruby on Rails Tutorial"
   home:
-    content: "This is the home page for the #{} sample application."
-    h1: "Sample App"
+    content: "This is the home page for the sample application."
+    h0: "Welcome to the Sample App"
+    h1: "Home"
     c1: "This is the home page for the "
     c2: "sample application."
   help:
@@ -44,6 +45,7 @@ en:
     c1: "Get help on the Ruby on Rails Tutorial at the"
     c2: "To get help on this sample app, see the "
     c3: "book"
+    c4: "Rails Tutorial help section"
   contact:
     h1: "Contact"
     c1: "Contact the Ruby on Rails Tutorial about the sample app at the"
@@ -60,3 +62,15 @@ en:
     c7: "http://rubyonrails.org/"
     c8: "Ruby on Rails"
     c9: ".This is the sample application for the tutorial."
+  login:
+    h1: "Log in"
+  signup:
+    h1: "Sign up"
+    c1: "This will be a signup page for new users."
+  footer:
+    c1: "The"
+    c2: "by"
+    url1: "http://www.michaelhartl.com/"
+    name1: "Michael Hartl"
+    url2: "http://news.railstutorial.org/"
+    name2: "News"

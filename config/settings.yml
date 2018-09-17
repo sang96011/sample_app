@@ -7,3 +7,5 @@ user:
     min_length: 6
   avatar:
     size: 80
+login:
+  remember: "1"

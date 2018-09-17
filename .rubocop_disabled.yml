@@ -1,5 +1,12 @@
 # These are all the cops that are disabled in the default configuration.
 
+
+Layout/AlignHash:
+  Description: >-
+                 Align the elements of a hash literal if they span more than
+                 one line.
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Description: >-
                  Add the frozen_string_literal comment to the top of files

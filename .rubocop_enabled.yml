@@ -8,12 +8,6 @@ Style/Alias:
   Description: "Use alias_method instead of alias."
   Enabled: true
 
-Layout/AlignHash:
-  Description: >-
-                 Align the elements of a hash literal if they span more than
-                 one line.
-  Enabled: true
-
 Layout/AlignParameters:
   Description: >-
                  Align the parameters of a method call if they span more

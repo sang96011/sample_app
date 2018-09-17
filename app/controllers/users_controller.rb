@@ -4,17 +4,17 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by(id: params[:id])
-    if !@user
-      flash[:danger] = t "flash.err_find"
-      redirect_to root_path
-    end
+    @user = User.find_by id: params[:id]
+    return if @user
+    flash[:danger] = t "flash.err_find"
+    redirect_to root_path
   end
 
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t "welcome"
+      log_in @user
+      flash.now[:success] = t "welcome"
       redirect_to @user
     else
       render :new

@@ -30,6 +30,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  account: "Account <b class=\"%{class}\"></b>"
+  profile: "Profile"
+  setting: "Settings"
+  logout: "Log out"
+  sample: "Sample App"
   hello: "Hello world"
   titles: "Ruby on Rails Tutorial Sample App"
   rails_url: "http://www.railstutorial.org/"
@@ -73,6 +78,8 @@ en:
     error:
       one: "%{count} error"
       other: "%{count} errors"
+    new: "New user? "
+    now: "Sign up now!"
   footer:
     c1: "The"
     c2: "by"
@@ -81,6 +88,7 @@ en:
     url2: "http://news.railstutorial.org/"
     name2: "News"
   user:
+    s: "Users"
     name: "Name"
     email: "Email"
     pass: "Password"

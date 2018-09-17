@@ -34,6 +34,7 @@ en:
   titles: "Ruby on Rails Tutorial Sample App"
   rails_url: "http://www.railstutorial.org/"
   rails_name: "Ruby on Rails Tutorial"
+  welcome: "Welcome to the Sample App"
   home:
     content: "This is the home page for the sample application."
     h0: "Welcome to the Sample App"
@@ -67,6 +68,11 @@ en:
   signup:
     h1: "Sign up"
     c1: "This will be a signup page for new users."
+    create: "Create my account"
+    c2: "The form contains"
+    error:
+      one: "%{count} error"
+      other: "%{count} errors"
   footer:
     c1: "The"
     c2: "by"
@@ -74,3 +80,12 @@ en:
     name1: "Michael Hartl"
     url2: "http://news.railstutorial.org/"
     name2: "News"
+  user:
+    name: "Name"
+    email: "Email"
+    pass: "Password"
+    confirm: "Confirmation"
+  flash:
+    success: "Welcome to the Sample App"
+    err_find: "Couldn't find user"
+    err_signin: "Invalid email/password combination"

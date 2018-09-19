@@ -34,6 +34,6 @@ class User < ApplicationRecord
     length: {maximum: Settings.user.email.max_length},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
-  validates :password, presence: true,
+  validates :password, presence: true, allow_nil: true,
     length: {minimum: Settings.user.pass.min_length}
 end

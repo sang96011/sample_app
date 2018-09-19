@@ -40,6 +40,9 @@ en:
   rails_url: "http://www.railstutorial.org/"
   rails_name: "Ruby on Rails Tutorial"
   welcome: "Welcome to the Sample App"
+  click_active: "! Click on the link below to activate your account:"
+  active: "Activate"
+  hi: "Hi %{name}, "
   home:
     content: "This is the home page for the sample application."
     h0: "Welcome to the Sample App"
@@ -109,3 +112,7 @@ en:
     login_please: "Please log in."
     destroy: "User deleted"
     not_you: "You can only edit information of yourself"
+    acc_not_active: "Account not activated. Check your email for the activation link."
+    acc_active: "Account activated!"
+    acc_invalid_active: "Invalid activation link"
+    acc_check_mail: "Please check your email to activate your account."

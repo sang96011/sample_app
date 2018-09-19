@@ -53,10 +53,17 @@ en:
     If you did not request your password to be reset, please ignore this email and
     your password will stay as it is.
     EOS
+  content_post: "Compose new micropost..."
+  post: "Post"
+  view_profile: "view my profile"
+  micropost:
+    one: "%{count} micropost"
+    other: "%{count} microposts"
   home:
     content: "This is the home page for the sample application."
     h0: "Welcome to the Sample App"
     h1: "Home"
+    h3: "Micropost Feed"
     c1: "This is the home page for the "
     c2: "sample application."
   help:
@@ -130,3 +137,9 @@ en:
     pass_reset: "Password has been reset."
     cant_empty: "can't be empty"
     email_nfound: "Email address not found"
+    email_sent: "Email sent with password reset instructions"
+    post_deleted: "Micropost deleted"
+    post_create: "Micropost created!"
+    post_error: "Error! An error occurred. Please try again later."
+    picture_error: "should be less than 5MB"
+    picture_js: "Maximum file size is 5MB. Please choose a smaller file."

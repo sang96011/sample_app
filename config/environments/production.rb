@@ -3,13 +3,16 @@ Rails.application.configure do
 config.action_mailer.delivery_method = :smtp
 # SMTP settings for gmail
 config.action_mailer.raise_delivery_errors = true
+host = "immense-woodland-68199.herokuapp.com"
+config.action_mailer.default_url_options = {host: host}
 config.action_mailer.smtp_settings = {
-  address: "smtp.gmail.com",
-  port: 587,
-  user_name: ENV["gmail_username"],
-  password: ENV["gmail_password"],
-  authentication: "plain",
-  enable_starttls_auto: true,
+  address: => "smtp.gmail.com",
+  port: => 587,
+  user_name: => ENV["gmail_username"],
+  password: => ENV["gmail_password"],
+  authentication: => "plain",
+  domain: => "gmail.com",
+  enable_starttls_auto: => true,
 }
   # Code is not reloaded between requests.
   config.cache_classes = true

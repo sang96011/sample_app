@@ -15,21 +15,19 @@ Rails.application.configure do
   # Enable/disable caching. By default caching is disabled.
   if Rails.root.join("tmp/caching-dev.txt").exist?
     config.action_controller.perform_caching = true
-
     config.cache_store = :memory_store
     config.public_file_server.headers = {
       "Cache-Control" => "public, max-age=#{2.days.seconds.to_i}"
     }
   else
     config.action_controller.perform_caching = false
-
     config.cache_store = :null_store
   end
 
   # Email preview
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = "localhost:3000"                     # Local server
+  host = "localhost:3000"
   config.action_mailer.default_url_options = {host: host, protocol: "http"}
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
@@ -51,4 +49,5 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+  config.middleware.use I18n::JS::Middleware
 end

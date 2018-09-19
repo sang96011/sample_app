@@ -5,7 +5,14 @@ user:
     max_length: 255
   pass:
     min_length: 6
+    time_expired: 2
   avatar:
     size: 80
+    small: 50
 login:
   remember: "1"
+micropost:
+  content:
+    max_length: 140
+  picture:
+    max_size: 5
